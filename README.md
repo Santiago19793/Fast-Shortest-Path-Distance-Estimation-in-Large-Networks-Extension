@@ -1,6 +1,6 @@
 # Fast Shortest Path Distance Estimation
 ## By Santiago García Mayayo & Niels Heslenfeld
-
+ 
 This GitHub repository contains Python code for estimating shortest path distances using landmarks. This project was our final project for the course Social Network Analysis for Computer Scientists at Leiden University taught by Dr. F.W. Takes.
 
 The project builds upon the work by Potamias et al<a id="1">[1]</a> by adding some new landmark selection strategies. We added a strategy based on Betweenness centrality, one that constructs a linear combination of Degree, Closeness centrality and Betweenness centrality, and a newly proposed centrality measure. These strategies are mostly based on those used in the original paper and strategies proposed/used by other researchers in this area. Most of our proposed methods turned out to perform quite well (see figure below).
